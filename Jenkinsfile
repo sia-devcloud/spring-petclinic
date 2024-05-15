@@ -52,7 +52,7 @@ pipeline {
 
 					// tool: {build installation name}, (Maven tool installation from jenkins from : Jenkins > Manage jenkins > Global Tool Configuration > Maven installations)
 					// useWrapper: true, (Set to true if you'd like the build to use the Maven Wrapper.)
-					// opts: '-Xms1024m -Xmx4096m', (Optional - Maven options)
+					// opts: '-Xms1024m -Xmx4096m', (Optional - Maven options) test git hooks
 				)
 			}
 		}
